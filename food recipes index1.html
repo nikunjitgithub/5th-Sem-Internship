@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Food Recipes</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Food Recipes</h1>
+  </header>
+  
+  <div class="container">
+    <div class="recipe">
+      <h2>Recipe Title 1</h2>
+      <img src="path_to_image.jpg" alt="Recipe Image 1">
+      <p>Recipe description goes here.</p>
+      <button onclick="showRecipe('recipe1')">View Recipe</button>
+    </div>
+    
+    <div class="recipe">
+      <h2>Recipe Title 2</h2>
+      <img src="path_to_image.jpg" alt="Recipe Image 2">
+      <p>Recipe description goes here.</p>
+      <button onclick="showRecipe('recipe2')">View Recipe</button>
+    </div>
+    
+    <!-- Add more recipes as needed -->
+  </div>
+
+  <div class="recipe-details" id="recipeDetails">
+    <!-- The detailed recipe content will be dynamically filled using JavaScript -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Food Website</title>
+  <link rel="stylesheet" type="text/css" href="styles1.css">
+</head>
+<body>
+  <header>
+    <h1>Simple Food Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#recipes">Recipes</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to our Food Website!</h2>
+      <p>Explore delicious recipes and find your favorite dishes.</p>
+    </section>
+
+    <section id="recipes">
+      <h2>Our Recipes</h2>
+      <div class="recipe">
+        <img src="path_to_image1.jpg" alt="Recipe 1">
+        <h3>Recipe Title 1</h3>
+        <p>Recipe 1 description goes here.</p>
+      </div>
+      <div class="recipe">
+        <img src="path_to_image2.jpg" alt="Recipe 2">
+        <h3>Recipe Title 2</h3>
+        <p>Recipe 2 description goes here.</p>
+      </div>
+      <!-- Add more recipes as needed -->
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Send">
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
